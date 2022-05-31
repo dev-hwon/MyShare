@@ -1,3 +1,2 @@
-# my share folder
+# share list
 
-custom js list
