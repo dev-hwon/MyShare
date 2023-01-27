@@ -5,12 +5,18 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> ie 무시 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link type="text/css" rel="stylesheet" type="text/css" href="./src/css/common.css" />
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./src/js/includeHTML.js"></script>
+    <script type="text/javascript" src="./src/js/common.js"></script>
 </head>
 <body>
-    <div include-html="./common/header.html"></div>
-    <div include-html="./common/main.html"></div>
-    <div include-html="./common/footer.html"></div>
+    <div class="global_warp">
+        <header include-html="./common/header.html"></header>
+        <div include-html="./common/main.html"></div>
+        <footer include-html="./common/footer.html"></footer>
+    </div>
+    <nav id="sidemenu" include-html="./common/sidemenu.html"></nav>
     <script> includeHTML(); </script>
 </body>
 </html>
