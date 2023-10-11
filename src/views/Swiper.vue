@@ -21,7 +21,6 @@
       <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide>
       <swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
     </swiper>
-
   </div>
 </template>
 
@@ -54,8 +53,7 @@ export default {
 }
 
 </script>
-<style scoped>
-
+<style lang="scss" scoped>
 .swiper {
   width: 100%;
   height: 100%;
@@ -79,5 +77,4 @@ export default {
   height: 100%;
   object-fit: cover;
 }
-
 </style>
